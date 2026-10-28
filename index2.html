@@ -1,85 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Ganapati Finance</title>
   <style>
-    /* Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #f4f6f9; color: #333; line-height: 1.6; }
+    header { background: #0b3c5d; color: #fff; padding: 2.5rem 1rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+    .card { background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    .card h3 { color: #0b3c5d; margin-bottom: 0.8rem; }
+    .contact-box { background: #fff; padding: 2rem; border-radius: 8px; margin-top: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; }
+    footer { text-align: center; padding: 1.5rem; background: #e0e6ed; color: #555; margin-top: 3rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-    }
+  <header>
+    <h1>Ganapati Finance</h1>
+    <p>আপনার বিশ্বস্ত আর্থিক ও ক্ষুদ্রঋণ সহযোগী</p>
+  </header>
 
-    header {
-      background: #222;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
+  <div class="container">
+    <div class="card-grid">
+      <div class="card">
+        <h3>ব্যবসায়িক লোন</h3>
+        <p>সহজ কিস্তি ও ন্যূনতম নথিপত্রে ব্যবসা বৃদ্ধির জন্য আর্থিক সহায়তা।</p>
+      </div>
+      <div class="card">
+        <h3>মাইক্রোফাইন্যান্স</h3>
+        <p>ক্ষুদ্র উদ্যোক্তা ও স্বনির্ভর গোষ্ঠীর উন্নয়নে নির্ভরযোগ্য ঋণ সুবিধা।</p>
+      </div>
+      <div class="card">
+        <h3>দ্রুত প্রসেসিং</h3>
+        <p>সহজ অনুমোদন প্রক্রিয়া ও স্বচ্ছ নীতিমালার সাথে দ্রুত অর্থ বিতরণ।</p>
+      </div>
+    </div>
 
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 0.5rem;
-    }
+    <div class="contact-box">
+      <h3>যোগাযোগ করুন</h3>
+      <p style="margin-top: 0.5rem;">ঠিকানা: Elgin, Kolkata</p>
+      <p>ইমেইল বা ফোন নম্বরের মাধ্যমে আমাদের সাথে যোগাযোগ করতে পারেন।</p>
+    </div>
+  </div>
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
+  <footer>
+    <p>&copy; 2026 Ganapati Finance. All rights reserved.</p>
+  </footer>
 
-    nav a:hover {
-      color: #f39c12;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 2rem;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      margin-bottom: 1rem;
-      color: #222;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background: #f4f4f4;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    .card img {
-      max-width: 100%;
-      border-radius: 5px;
-    }
-
-    footer {
-      background: #222;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-    }
-
-    @media (max-width: 600px) {
+</body>
+</html>
